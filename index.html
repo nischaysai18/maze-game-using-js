@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+           
+        }
+       
+        .hidden{
+            display: none !important;
+        }
+        h1{
+            font-size: 36px;
+            color: yellow;
+        }
+        .after{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            height: 100vh;
+            width: 100vw;
+        }
+        </style>
+
+</head>
+<body>
+    <div class = "after hidden">
+        <h1>YOU WON !</h1>
+        <button class='restart'>restart</button>
+    </div>
+  
+    <script src="index.js"></script>
+</body>
+</html>
